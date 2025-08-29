@@ -53,7 +53,7 @@ Ridge regularization shrinks our coefficients, $\beta$.  However, LASSO (Least A
 
 ### Random Forest
 
-<img src="./images/hist_random_pca.png">
+<img src="./images/hist_random_pca.png"><img src="./images/cm_random_pca.png">
 
 
 ### SVC
