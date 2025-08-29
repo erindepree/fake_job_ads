@@ -2,7 +2,7 @@
 
 As I get closer to applying for jobs, I am getting more and more fake jobs via messages, so I wondered how many job ads are fake?  And can I train a classification model to determine how likely a job ad is to for a fake job.  
 
-If you are interested in exploring my model with job ads that you've found, please visit my streamlit app LINK HERE.
+If you are interested in exploring my model with job ads that you've found, please visit [my streamlit app](https://is-this-job-ad-fake.streamlit.app/) to test my model for yourself!
 
 ## Data Source, Cleaning, and Feature Extraction
 
