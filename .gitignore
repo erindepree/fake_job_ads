@@ -1,5 +1,12 @@
 .DS_Store
 
+# models (pickled, keras, etc)
+code/models/
+keras_model*/
+*.keras
+*.pkl
+*.pickle
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
