@@ -3,6 +3,8 @@
 # models (pickled, keras, etc)
 code/models/
 keras_model*/
+code/model*/
+code/results/
 *.keras
 *.pkl
 *.pickle
