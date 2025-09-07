@@ -11,6 +11,7 @@ code/results/
 
 # predictions
 data/results/
+data/results2/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
