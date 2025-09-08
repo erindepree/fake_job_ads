@@ -34,12 +34,11 @@ I explored many, many models, but here I will highlight the best performing of t
 ### Text Preprocessing
 I used both the count vectorizer and the Tf-Idf Vectorizer to encode the text data.  
 
-<style type="text/css">
+<!---<style type="text/css">
 #T_20c0a_row1_col1, #T_20c0a_row1_col2, #T_20c0a_row1_col3, #T_20c0a_row1_col4, #T_20c0a_row1_col5 {
-  color: white;
-  background-color: darkblue;
+  color: white; background-color: darkblue;
 }
-</style>
+</style>-->
 <table id="T_20c0a">
   <thead>
     <tr>
@@ -54,7 +53,7 @@ I used both the count vectorizer and the Tf-Idf Vectorizer to encode the text da
   <tbody>
     <tr>
       <td id="T_20c0a_row0_col0" class="data row0 col0" >base</td>
-      <td id="T_20c0a_row0_col1" class="data row0 col1" >0.951678</td>
+      <td id="T_20c0a_row0_col1" class="data row0 col1" background-color='darkblue' >0.951678</td>
       <td id="T_20c0a_row0_col2" class="data row0 col2" >0.000000</td>
       <td id="T_20c0a_row0_col3" class="data row0 col3" >0.000000</td>
       <td id="T_20c0a_row0_col4" class="data row0 col4" >0.000000</td>
@@ -62,11 +61,11 @@ I used both the count vectorizer and the Tf-Idf Vectorizer to encode the text da
     </tr>
     <tr>
       <td id="T_20c0a_row1_col0" class="data row1 col0" >log_cv</td>
-      <td id="T_20c0a_row1_col1" class="data row1 col1" >0.985235</td>
-      <td id="T_20c0a_row1_col2" class="data row1 col2" >0.890625</td>
-      <td id="T_20c0a_row1_col3" class="data row1 col3" >0.791667</td>
-      <td id="T_20c0a_row1_col4" class="data row1 col4" >0.838235</td>
-      <td id="T_20c0a_row1_col5" class="data row1 col5" >0.893365</td>
+      <td id="T_20c0a_row1_col1" class="data row1 col1" style="color: white; background-color: darkblue;">0.985235</td>
+      <td id="T_20c0a_row1_col2" class="data row1 col2" style="color: white; background-color: darkblue;">0.890625</td>
+      <td id="T_20c0a_row1_col3" class="data row1 col3" style="color: white; background-color: darkblue;">0.791667</td>
+      <td id="T_20c0a_row1_col4" class="data row1 col4" style="color: white; background-color: darkblue;">0.838235</td>
+      <td id="T_20c0a_row1_col5" class="data row1 col5" style="color: white; background-color: darkblue;">0.893365</td>
     </tr>
     <tr>
       <td id="T_20c0a_row2_col0" class="data row2 col0" >log_tfidf</td>
@@ -87,12 +86,7 @@ Not all words change the meaning of a sentence, some work as grammatical positio
 
 Let's see what happens when stop words are excluded from the analysis.  
 
-<style type="text/css">
-#T_49b33_row1_col3, #T_49b33_row1_col5, #T_49b33_row3_col1, #T_49b33_row3_col2, #T_49b33_row5_col1, #T_49b33_row5_col4 {
-  color: white;
-  background-color: darkblue;
-}
-</style>
+
 <table id="T_49b33">
   <thead>
     <tr>
@@ -116,10 +110,10 @@ Let's see what happens when stop words are excluded from the analysis.
     <tr>
       <td id="T_49b33_row1_col0" class="data row1 col0" >log_cv</td>
       <td id="T_49b33_row1_col1" class="data row1 col1" >0.985235</td>
-      <td id="T_49b33_row1_col2" class="data row1 col2" >0.890625</td>
+      <td id="T_49b33_row1_col2" class="data row1 col2" style="color: white; background-color: darkblue;">0.890625</td>
       <td id="T_49b33_row1_col3" class="data row1 col3" >0.791667</td>
       <td id="T_49b33_row1_col4" class="data row1 col4" >0.838235</td>
-      <td id="T_49b33_row1_col5" class="data row1 col5" >0.893365</td>
+      <td id="T_49b33_row1_col5" class="data row1 col5" style="color: white; background-color: darkblue;">0.893365</td>
     </tr>
     <tr>
       <td id="T_49b33_row2_col0" class="data row2 col0" >log_cv_stop_sklearn</td>
@@ -131,8 +125,8 @@ Let's see what happens when stop words are excluded from the analysis.
     </tr>
     <tr>
       <td id="T_49b33_row3_col0" class="data row3 col0" >log_cv_stop_nltk</td>
-      <td id="T_49b33_row3_col1" class="data row3 col1" >0.986353</td>
-      <td id="T_49b33_row3_col2" class="data row3 col2" >0.932961</td>
+      <td id="T_49b33_row3_col1" class="data row3 col1" style="color: white; background-color: darkblue;">0.986353</td>
+      <td id="T_49b33_row3_col2" class="data row3 col2" style="color: white; background-color: darkblue;">0.932961</td>
       <td id="T_49b33_row3_col3" class="data row3 col3" >0.773148</td>
       <td id="T_49b33_row3_col4" class="data row3 col4" >0.845570</td>
       <td id="T_49b33_row3_col5" class="data row3 col5" >0.885164</td>
@@ -147,10 +141,10 @@ Let's see what happens when stop words are excluded from the analysis.
     </tr>
     <tr>
       <td id="T_49b33_row5_col0" class="data row5 col0" >log_cv_stop_gensim</td>
-      <td id="T_49b33_row5_col1" class="data row5 col1" >0.986353</td>
+      <td id="T_49b33_row5_col1" class="data row5 col1" style="color: white; background-color: darkblue;">0.986353</td>
       <td id="T_49b33_row5_col2" class="data row5 col2" >0.928177</td>
       <td id="T_49b33_row5_col3" class="data row5 col3" >0.777778</td>
-      <td id="T_49b33_row5_col4" class="data row5 col4" >0.846348</td>
+      <td id="T_49b33_row5_col4" class="data row5 col4" style="color: white; background-color: darkblue;">0.846348</td>
       <td id="T_49b33_row5_col5" class="data row5 col5" >0.887361</td>
     </tr>
     <tr>
@@ -229,12 +223,7 @@ If you want to calculate distance using a higher dimension, this is called a Min
 
 Ridge regularization shrinks our coefficients, $\beta_j$.  However, LASSO (Least Absolute Shrinkage and Selection Operator) actually zeros some of the coefficients.  Sadly, using either form of regularization makes our cofficients, $\beta_j$, uninterpretable since they are no longer just the "slopes" in our fit.
 
-<style type="text/css">
-#T_929df_row1_col3, #T_929df_row1_col5, #T_929df_row3_col1, #T_929df_row3_col4, #T_929df_row4_col1, #T_929df_row4_col2 {
-  color: white;
-  background-color: darkblue;
-}
-</style>
+
 <table id="T_929df">
   <thead>
     <tr>
@@ -259,22 +248,22 @@ Ridge regularization shrinks our coefficients, $\beta_j$.  However, LASSO (Least
       <td id="T_929df_row1_col0" class="data row1 col0" >log_cv</td>
       <td id="T_929df_row1_col1" class="data row1 col1" >0.985235</td>
       <td id="T_929df_row1_col2" class="data row1 col2" >0.890625</td>
-      <td id="T_929df_row1_col3" class="data row1 col3" >0.791667</td>
+      <td id="T_929df_row1_col3" class="data row1 col3" style="color: white; background-color: darkblue;">0.791667</td>
       <td id="T_929df_row1_col4" class="data row1 col4" >0.838235</td>
-      <td id="T_929df_row1_col5" class="data row1 col5" >0.893365</td>
+      <td id="T_929df_row1_col5" class="data row1 col5" style="color: white; background-color: darkblue;">0.893365</td>
     </tr>
     <tr>
       <td id="T_929df_row3_col0" class="data row3 col0" >log_cv_stop_gensim</td>
-      <td id="T_929df_row3_col1" class="data row3 col1" >0.986353</td>
+      <td id="T_929df_row3_col1" class="data row3 col1" style="color: white; background-color: darkblue;">0.986353</td>
       <td id="T_929df_row3_col2" class="data row3 col2" >0.928177</td>
       <td id="T_929df_row3_col3" class="data row3 col3" >0.777778</td>
-      <td id="T_929df_row3_col4" class="data row3 col4" >0.846348</td>
+      <td id="T_929df_row3_col4" class="data row3 col4" style="color: white; background-color: darkblue;">0.846348</td>
       <td id="T_929df_row3_col5" class="data row3 col5" >0.887361</td>
     </tr>
     <tr>
       <td id="T_929df_row4_col0" class="data row4 col0" >log_cv_ridge_best</td>
-      <td id="T_929df_row4_col1" class="data row4 col1" >0.986353</td>
-      <td id="T_929df_row4_col2" class="data row4 col2" >0.942857</td>
+      <td id="T_929df_row4_col1" class="data row4 col1" style="color: white; background-color: darkblue;">0.986353</td>
+      <td id="T_929df_row4_col2" class="data row4 col2" style="color: white; background-color: darkblue;">0.942857</td>
       <td id="T_929df_row4_col3" class="data row4 col3" >0.763889</td>
       <td id="T_929df_row4_col4" class="data row4 col4" >0.843990</td>
       <td id="T_929df_row4_col5" class="data row4 col5" >0.880769</td>
@@ -301,4 +290,4 @@ I explored more models, but they did not perform as well (despite lengthy search
 
 I also looked at different train-test splits and this leads to a variation of several percent on all the metrics.  Since the gains are so small with the stop words and regularization, I'm not sure that these are actually beneficial and may just be better for this particular train-test split. But time is not infinite and we must stop modeling at some point.  
 
-At this point, we can safely say that sometimes the simpliest models are the most useful.  
+At this point, we can safely say that sometimes the simpliest models are the most useful.
