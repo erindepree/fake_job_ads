@@ -1,7 +1,7 @@
 # Finding Fake Job Ads
 Erin De Pree, PhD | [website](https://erindepree.github.io/github.io/)
 
-![https://badgen.net/static/license/MIT/blue](https://badgen.net/static/license/MIT/blue)
+[![https://badgen.net/static/license/MIT/blue](https://badgen.net/static/license/MIT/blue)](https://github.com/erindepree/fake_job_ads/blob/main/LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/erindepree/fake_job_ads)
 
 
