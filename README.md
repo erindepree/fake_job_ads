@@ -1,4 +1,7 @@
 # Finding Fake Job Ads
+Erin De Pree, PhD | [website](https://erindepree.github.io/github.io/)
+
+![https://badgen.net/static/license/MIT/blue](https://badgen.net/static/license/MIT/blue)
 
 As I get closer to applying for jobs, I am getting more and more fake jobs via messages, so I wondered how many job ads are fake?  And can I train a classification model to determine how likely a job ad is to for a fake job.  
 
